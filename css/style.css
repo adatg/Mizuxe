@@ -1,0 +1,91 @@
+body {
+  margin-top: 105px; }
+
+h2 {
+  font-size: 2.5rem; }
+
+.btn-primary {
+  background-color: #3292a6;
+  border-color: #3292a6; }
+
+.text-primary {
+  color: #3292a6 !important; }
+
+.btn-primary:hover {
+  background-color: #297889;
+  border-color: #26707f; }
+
+.bg-blue {
+  background-color: #3292a6; }
+
+.outline-blue {
+  border: 1px solid #3292a6; }
+
+.form-control:focus {
+  color: #495057;
+  background-color: #fff;
+  border-color: #7fc9d8;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(50, 146, 166, 0.25); }
+
+.navbar {
+  box-shadow: 2px 5px 5px #3292a6;
+  opacity: 0.9;
+  background: #fff; }
+  .navbar .nav-item {
+    font-size: 1.4rem;
+    padding-right: 1.4rem; }
+
+#home {
+  position: relative;
+  background: url(../img/mountains.jpg);
+  min-height: 600px; }
+  #home .primary-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(50, 146, 166, 0.8); }
+  #home button {
+    font-size: 1.25rem; }
+
+#newsletter .form-group, #newsletter .btn-group-large {
+  width: 100%; }
+#newsletter .form-group.mx-lg-4 {
+  margin-left: 20px;
+  margin-right: 20px; }
+#newsletter .form-group {
+  margin-bottom: 0; }
+
+.info-header {
+  width: 50%;
+  margin: auto;
+  border-bottom: 1px #ddd solid; }
+
+#meet img {
+  margin-top: -50px; }
+#meet a {
+  color: #fff; }
+#meet .card:hover {
+  background-color: #3292a6;
+  color: #fff; }
+
+#contact textarea {
+  height: auto; }
+
+@media (max-width: 768px) {
+  .mb-resp {
+    margin-bottom: 1rem; }
+
+  #home h1 {
+    font-size: 4rem; }
+
+  #home {
+    min-height: 500px; }
+
+  .info-header {
+    width: 100%; }
+
+  #meet .card.mb-resp {
+    margin-bottom: 2.5rem; } }
